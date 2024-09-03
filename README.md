@@ -9,9 +9,9 @@
 
 | Tema | Resumo |
 | ---- | ------ |
-| SpringBoot | [Documentação]() |
-| Spring Data JPA | [Documentação]() |
-| H2 Database | [Documentação]() |
+| SpringBoot | [Documentação](https://docs.spring.io/spring-boot/index.html) |
+| Spring Data JPA | [Documentação](https://docs.spring.io/spring-data/jpa/docs/current-SNAPSHOT/reference/html/#reference) |
+| H2 Database | [Documentação](https://h2database.com/html/main.html) |
 
 ### 🔎 Passo a Passo para rodar a aplicação na linha de comando
 

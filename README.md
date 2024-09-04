@@ -72,4 +72,49 @@ http://localhost:8090/food/save
 http://localhost:8090/food/
 ```
 
+## 🔎 Também criei testes para o controlador
+
+### ☢️ Você precisará ter o maven instalado na sua máquina para rodar os testes
+
+#### ✅ Se caso você já possuir o maven instalado na sua máquina:
+
+- Na cmd ou prompt, localizado no diretório raiz do projeto, digite o seguinte comando:
+
+```
+mvn test
+```
+#### ❌ Se caso não possuir te ajudarei na instalação:
+
+- Visite o site Oficial [Apache Maven](https://maven.apache.org/download.cgi) na sessão de downloads;
+
+- Faça download do arquivo [Binary Zip Archive](https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip);
+
+- Após baixar, descompacte o arquivo no diretório incicado:
+```
+C:\Program Files\Apache\maven
+```
+
+- Em seguida abra o prompt de comando do seu computador e digite os seguintes comandos, para configurar o maven nas variáveis de ambiente do windows:
+```
+setx MAVEN_HOME "C:\Program Files\Apache\maven\apache-maven-3.9.9"
+```
+```
+setx PATH "%PATH%;C:\Program Files\Apache\maven\apache-maven-3.9.9\bin"
+
+```
+
+- Para testar se deu certo a instalação, digite o seguinte comando:
+```
+mvn -v
+```
+
+- Se estiver tudo ok, aparecendo a versão do maven, agora você pode rodar os testes usando o seguinte comando:
+```
+mvn test
+```
+
+
+
+
+
 ### 👀 Lembrando que o H2 Database é um banco de dados em memória, ou seja, toda vez que reiniciar a aplicação os dados armazenado não existirão.
